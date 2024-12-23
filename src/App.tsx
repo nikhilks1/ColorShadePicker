@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ColorBlock from "./components/ColorBlock";
-import { MdOutlineShuffle, MdOpenInNew } from "react-icons/md";
+import { MdOutlineShuffle } from "react-icons/md";
 import Cookies from "js-cookie";
 import Layout from "./layout/Layout";
 import Modal from "./components/Modal";
