@@ -137,14 +137,16 @@ const ColorInput = (props: ColorInputTypes) => {
         )}
         <span className="text-base ml-2 font-medium dark:text-slate-50">%</span>
         <input
-          className="h-full w-12 bg-transparent focus:outline-none ml-1 font-medium dark:text-slate-50"
-          type="number"
-          step="0.1"
-          min="1"
-          max="100"
-          defaultValue="10"
-          ref={percentageRef}
-        />
+  className="h-full w-12 bg-transparent focus:outline-none ml-1 font-medium dark:text-slate-50"
+  type="number"
+  step="0.1"
+  min="1"
+  max="100"
+  defaultValue="10"
+  ref={percentageRef}
+  style={{ textIndent: '8px' }}
+/>
+
       </div>
       <input
         type="text"
